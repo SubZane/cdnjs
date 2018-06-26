@@ -1,1 +1,39 @@
 
+{
+  "name": "simplegmaps",
+  "version": "2.3.1",
+  "filename": "simplegmaps.min.js",
+	"author": {
+		"name": "Andreas Lee-Norman",
+		"email": "an@andreasnorman.se",
+		"url": "http://www.andreasnorman.com"
+	},
+  "licenses": [
+		{
+			"type": "MIT",
+			"url": "https://github.com/SubZane/simplegmaps/blob/master/LICENSE-MIT"
+		}
+  ],
+  "description": "simplegmaps - Add google maps to your web without knowing squat about JavaScript",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SubZane/simplegmaps"
+  },
+  "keywords": [
+    "maps",
+    "googlemaps",
+    "google"
+  ],
+  "autoupdate": {
+    "source": "git",
+    "target": "git://github.com/SubZane/simplegmaps.git",
+    "fileMap": [
+      {
+        "basePath": "",
+        "files": [
+          "detect*"
+        ]
+      }
+    ]
+  }
+}
