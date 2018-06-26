@@ -31,7 +31,8 @@
       {
         "basePath": "",
         "files": [
-          "detect*"
+          "simplegmaps.min.js",
+          "simplegmaps.js"
         ]
       }
     ]
